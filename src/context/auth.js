@@ -35,7 +35,7 @@ function AuthProvider(props) {
 		dispatch({ type: 'LOGIN', payload: userData });
 	}
 	function logout() {
-		localStorage.remoteItem('jwtToken');
+		localStorage.removeItem('jwtToken');
 		dispatch({ type: 'LOGOUT' });
 	}
 	return (

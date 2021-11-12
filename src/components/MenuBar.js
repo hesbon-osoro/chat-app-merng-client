@@ -28,7 +28,7 @@ function MenuBar() {
 			<Menu.Menu position="right">
 				<Menu.Item
 					name="login"
-					acitve={activeItem === 'login'}
+					active={activeItem === 'login'}
 					onClick={handleItemClick}
 					as={Link}
 					to="/login"

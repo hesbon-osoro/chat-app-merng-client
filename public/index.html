@@ -8,7 +8,20 @@
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 		<link rel="shortcut icon" href="%PUBLIC_URL%/social.png" />
 		<title>Chat-app | MERNG</title>
-		<!-- Google Analytics will be here -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-XL3T17V0ER"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-XL3T17V0ER');
+		</script>
 	</head>
 	<body>
 		<div id="root"></div>

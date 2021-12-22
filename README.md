@@ -9,4 +9,4 @@ This is Social Media Chat app using for creating and liking posts.
 - Node (Backend)
 - MongoDB (Database)
 - Express (Server)
-- GraphQL (Query & Mutations)
+- GraphQL (ApolloServer, Query & Mutations)

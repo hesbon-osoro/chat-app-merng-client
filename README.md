@@ -34,6 +34,8 @@ Social Media Chat app for creating and liking posts.
 
 ![User home page](assets/images/chat%20app%20user%20login.png)
 
+Home nav item for authenticated user takes the username value
+
 Authenticated users can:
 
 - Create posts,
